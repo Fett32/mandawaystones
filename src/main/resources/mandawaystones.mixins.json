@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "me.fett.mandawaystones.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "InMemoryPlayerWaystoneDataMixin",
+    "PersistentPlayerWaystoneDataMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

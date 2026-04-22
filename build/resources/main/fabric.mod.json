@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "mandawaystones",
+  "version": "1.0.1",
+  "name": "MandaWaystones",
+  "description": "Adds newly-activated PLAYER-origin waystones to the top of each player's waystone list, instead of the bottom. World-gen waystones (wild/village/dungeon) still append to the end.",
+  "authors": ["Fett"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {},
+  "mixins": [
+    "mandawaystones.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "waystones": ">=21.1.0"
+  }
+}
